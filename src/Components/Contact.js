@@ -67,8 +67,10 @@ export default function Contact() {
                                 Message or add me on linkedin
                             </Typography>
                         </CardContent>
-                        <CardActions>
-                            <Button variant="contained">Take me toi linkedin</Button>
+                        <CardActions style={{justifyContent: 'center'}}>
+                            <a href="https://www.linkedin.com/in/priscillaseal/">
+                                <Button variant="contained">Take me to Priscilla's linkedin</Button>
+                                </a>
                         </CardActions>
                     </Card>
 
