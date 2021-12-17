@@ -68,7 +68,7 @@ export default function Contact() {
                             </Typography>
                         </CardContent>
                         <CardActions style={{justifyContent: 'center'}}>
-                            <a href="https://www.linkedin.com/in/priscillaseal/">
+                            <a href="https://www.linkedin.com/in/priscillaseal/" target="_blank">
                                 <Button variant="contained">Take me to Priscilla's linkedin</Button>
                                 </a>
                         </CardActions>
