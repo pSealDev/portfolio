@@ -17,7 +17,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { Environment, OrbitControls, Text } from "@react-three/drei";
 import Button from '@mui/material/Button';
 import CatTable from './CatTable'
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -173,7 +173,7 @@ function Home() {
                     <br />
                 </Grid>
                 <Grid item xs={12} md={12} lg={12} style={{ textAlign: 'center' }}>
-                    <Button variant="contained">My Portfolio</Button>
+                    <Link to="/projects"><Button variant="contained">My Portfolio</Button></Link>
                     <br />
                     <br />
                 </Grid>
