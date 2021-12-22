@@ -80,7 +80,7 @@ function Projects() {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small">Github (coming soon)</Button>
+                            <Button size="small"><a href="https://youtu.be/C_mqwJ7T0K0">YouTube</a>&nbsp;Github (coming soon)</Button>
                         </CardActions>
                     </Card>
                 </Grid>
