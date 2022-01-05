@@ -55,7 +55,8 @@ function Projects() {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small"><a href="https://youtu.be/Ktj12KmzWU8">YouTube</a>&nbsp;Github (coming soon)</Button>
+                            <Button size="small"><a href="https://youtu.be/Ktj12KmzWU8">YouTube</a>&nbsp;&#8226;&nbsp;
+                            Github (coming soon)</Button>
                         </CardActions>
                     </Card>
                 </Grid>
@@ -80,7 +81,8 @@ function Projects() {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small"><a href="https://youtu.be/C_mqwJ7T0K0">YouTube</a>&nbsp;Github (coming soon)</Button>
+                            <Button size="small"><a href="https://youtu.be/C_mqwJ7T0K0">YouTube</a>&nbsp;&#8226;&nbsp;
+                            <a href="https://github.com/pSealDev/seal_booklog">Github</a></Button>
                         </CardActions>
                     </Card>
                 </Grid>
