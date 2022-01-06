@@ -56,7 +56,7 @@ function Projects() {
                         </CardContent>
                         <CardActions>
                             <Button size="small"><a href="https://youtu.be/Ktj12KmzWU8">YouTube</a>&nbsp;&#8226;&nbsp;
-                            Github (coming soon)</Button>
+                                Github (coming soon)</Button>
                         </CardActions>
                     </Card>
                 </Grid>
@@ -64,7 +64,7 @@ function Projects() {
                     <br />
                     <br />
 
-                    <Card sx={{ maxWidth: 340, marginLeft: '50px',  marginRight: '0px' }}>
+                    <Card sx={{ maxWidth: 340, marginLeft: '50px', marginRight: '0px' }}>
                         <CardMedia
                             component="img"
                             height="140"
@@ -77,70 +77,74 @@ function Projects() {
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 Made with React, PostGres, and MaterialUI. User can add books to the grid,
-                                create/read/update/delete from the book list. Tested with MirageJS, an api mocking library. 
+                                create/read/update/delete from the book list. Tested with MirageJS, an api mocking library.
                             </Typography>
                         </CardContent>
                         <CardActions>
                             <Button size="small"><a href="https://youtu.be/C_mqwJ7T0K0">YouTube</a>&nbsp;&#8226;&nbsp;
-                            <a href="https://github.com/pSealDev/seal_booklog">Github</a></Button>
+                                <a href="https://github.com/pSealDev/seal_booklog">Github</a></Button>
                         </CardActions>
                     </Card>
                 </Grid>
                 <Grid item md={2} lg={2}></Grid>
-           
-            <Grid item xs={0} md={2} lg={2}></Grid>
-            <Grid item xs={12} md={4} lg={4}>
-                <br />
-                <br />
 
-                <Card sx={{ maxWidth: 340, marginLeft: '50px',  marginRight: '0px' }}>
-                    <CardMedia
-                        component="img"
-                        height="140"
-                        image={pseal_portfolio}
-                        alt="Priscilla Seal Portfolio"
-                    />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
-                            Portfolio Website
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                            My portolio. Made with React, MaterialUI, React-Bootstrap, React-Three-Fiber, FramerMotion, and Three.js. Responsive.
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small">Github (coming soon) </Button>
-                    </CardActions>
-                </Card>
-            </Grid>
-            <Grid item xs={12} md={4} lg={4}>
-                <br />
-                <br />
+                <Grid item xs={0} md={2} lg={2}></Grid>
+                <Grid item xs={12} md={4} lg={4}>
+                    <br />
+                    <br />
 
-                <Card sx={{ maxWidth: 340, marginLeft: '50px',  marginRight: '0px' }}>
-                    <CardMedia
-                        component="img"
-                        height="140"
-                        image={witch_software}
-                        alt="Witch Software"
-                    />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
-                            Witch Software
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                            Fun halloween project. Made with React, MongoDB, and MaterialUI.
-                        </Typography>
-                    </CardContent>
-                    <CardActions>
-                        <Button size="small">Github (coming soon)</Button>
-                    </CardActions>
-                </Card>
+                    <Card sx={{ maxWidth: 340, marginLeft: '50px', marginRight: '0px' }}>
+                        <CardMedia
+                            component="img"
+                            height="140"
+                            image={pseal_portfolio}
+                            alt="Priscilla Seal Portfolio"
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="div">
+                                Portfolio Website
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                                My portolio. Made with React, MaterialUI, React-Bootstrap, React-Three-Fiber, FramerMotion, and Three.js. Responsive.
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small">
+                                <a href="https://github.com/pSealDev/portfolio">
+                                    Github (coming soon)
+                                </a>
+                            </Button>
+                        </CardActions>
+                    </Card>
+                </Grid>
+                <Grid item xs={12} md={4} lg={4}>
+                    <br />
+                    <br />
+
+                    <Card sx={{ maxWidth: 340, marginLeft: '50px', marginRight: '0px' }}>
+                        <CardMedia
+                            component="img"
+                            height="140"
+                            image={witch_software}
+                            alt="Witch Software"
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="div">
+                                Witch Software
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                                Fun halloween project. Made with React, MongoDB, and MaterialUI.
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small">Github (coming soon)</Button>
+                        </CardActions>
+                    </Card>
+                </Grid>
+                <Grid item xs={0} md={2} lg={2}></Grid>
+                <Grid item xs={0} md={6} lg={6}>Book Log</Grid>
             </Grid>
-            <Grid item xs={0} md={2} lg={2}></Grid>
-            <Grid item xs={0} md={6} lg={6}>Book Log</Grid>
-        </Grid>
-    </Box >
+        </Box >
 
     );
 }
