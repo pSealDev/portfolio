@@ -111,7 +111,7 @@ function Projects() {
                         <CardActions>
                             <Button size="small">
                                 <a href="https://github.com/pSealDev/portfolio">
-                                    Github (coming soon)
+                                    Github
                                 </a>
                             </Button>
                         </CardActions>
