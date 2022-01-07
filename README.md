@@ -16,4 +16,4 @@ I still need to add my past experience section. Meanwhile, my Linkedin profile i
 
 TODO:
 - I still need to add my past experience section. Meanwhile, my Linkedin profile is included. 
->>>>>>> 723f1ec8ba29e5b211b303cee51d4c8a1c0d1e42
+
