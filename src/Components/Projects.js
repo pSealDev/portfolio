@@ -13,7 +13,7 @@ import nasa_museum from '../images/nasa_museum.png';
 import book_log from '../images/BookLog_dec2021.png';
 import witch_software from '../images/BOS_screenshot_dec21.png';
 import pseal_portfolio from '../images/PSeal_Portfolio.png';
-import '../App.css';
+import '../styles/app.css';
 
 const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,

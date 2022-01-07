@@ -7,8 +7,7 @@ import Projects from './Components/Projects.js';
 import Blog from './Components/Blog.js';
 import Footer from './Components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import ScrollHandler from "./Components/ScrollHandler";
-import './styles/App.css';
+import './styles/app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

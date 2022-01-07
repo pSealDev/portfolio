@@ -10,7 +10,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Boxy from './Boxy';
 import { Canvas, useFrame, useLoader } from '@react-three/fiber'
-import '../App.css';
+import '../styles/app.css';
 import { TextureLoader } from 'three/src/loaders/TextureLoader'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 // import modelPath from "../public/morning_coffee/scene.gltf";

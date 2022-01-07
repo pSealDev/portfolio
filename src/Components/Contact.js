@@ -13,7 +13,7 @@ import book_log from '../images/BookLog_dec2021.png';
 import witch_software from '../images/BOS_screenshot_dec21.png';
 import pseal_portfolio from '../images/PSeal_Portfolio.png';
 import pseal_linkedin from '../images/linkedin_screenshot.png';
-import '../App.css';
+import '../styles/app.css';
 import Button from '@mui/material/Button';
 
 const Item = styled(Paper)(({ theme }) => ({
