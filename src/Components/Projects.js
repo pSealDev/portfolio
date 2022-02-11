@@ -13,6 +13,7 @@ import nasa_museum from '../images/nasa_museum.png';
 import book_log from '../images/BookLog_dec2021.png';
 import witch_software from '../images/BOS_screenshot_dec21.png';
 import pseal_portfolio from '../images/PSeal_Portfolio.png';
+import github_commit_img from '../images/chrono_form_img.png';
 import '../styles/app.css';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -68,6 +69,32 @@ function Projects() {
                         <CardMedia
                             component="img"
                             height="140"
+                            image={github_commit_img}
+                            alt="Book Log"
+                        />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="div">
+                                Github Commit Log
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                                Made with React and MaterialUI, ContextAPI, tested with React-Testing-Library. Enter username and repository name to return commit log.
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small"><a href="https://youtu.be/j_d5LyVLTVw">YouTube</a>&nbsp;&#8226;&nbsp;
+                                <a href="https://github.com/pSealDev/Github-Commit-Log">Github</a></Button>
+                        </CardActions>
+                    </Card>
+                </Grid>
+                <Grid item md={2} lg={2}></Grid>
+                <Grid item xs={12} md={4} lg={4}>
+                    <br />
+                    <br />
+
+                    <Card sx={{ maxWidth: 340, marginLeft: '50px', marginRight: '0px' }}>
+                        <CardMedia
+                            component="img"
+                            height="140"
                             image={book_log}
                             alt="Book Log"
                         />
@@ -86,9 +113,6 @@ function Projects() {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item md={2} lg={2}></Grid>
-
-                <Grid item xs={0} md={2} lg={2}></Grid>
                 <Grid item xs={12} md={4} lg={4}>
                     <br />
                     <br />
@@ -141,9 +165,9 @@ function Projects() {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs={0} md={2} lg={2}></Grid>
-                <Grid item xs={0} md={6} lg={6}>Book Log</Grid>
             </Grid>
+            <br />
+            <br />
         </Box >
 
     );
