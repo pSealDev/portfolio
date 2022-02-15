@@ -52,7 +52,7 @@ function Projects() {
                                 Nasa 3D Museum
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Made with Three.js (JavaScript library to animate WebGL), as a capstone project for university.
+                                Made with Three.js (JavaScript library to animate WebGL), Axios and Node as a capstone project for university.
                             </Typography>
                         </CardContent>
                         <CardActions>
